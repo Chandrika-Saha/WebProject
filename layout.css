@@ -1,0 +1,81 @@
+body{
+	 background-color:#000000;
+	 margin-left:20%;
+	 margin-right:20%;
+	 color:white;
+}
+#warp{
+	height:600px;
+	width:800px;
+}
+#head{
+	height:350px;
+	width:800px;
+}
+
+#about{
+	height:350px;
+	width:320px;
+	background-color:black;
+	float:left;
+	
+}
+#slideShowImages{
+	height:350px;
+	width:480px;
+	background-color:black;
+	float:right;
+	overflow:hidden;
+	background-image:url(load.gif);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+.clr{
+	clear:both;
+}
+
+#foot{
+	height:150px;
+	width:800px;
+}
+
+#service{
+	height:150px;
+	width:160px;
+	background-color:black;
+	float:left;
+	
+}
+#testi{
+	height:150px;
+	width:160px;
+	background-color:black;
+	float:left;
+	
+}
+#social{
+	height:150px;
+	width:310px;
+	background-color:#00BFFF;
+	float:left;
+	line-height:2px;
+	margin-right:10px;
+}
+#contact{
+	height:150px;
+	width:160px;
+	background-color:black;
+	float:left;
+}
+#footer{
+	height:100px;
+	width:800px;
+	background-color:black;
+}
+
+.img_gallary img{
+	height:300;
+	width:450;
+	
+}

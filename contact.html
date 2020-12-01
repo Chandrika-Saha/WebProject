@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>
+Welcome to Food Hut...!!
+</title>
+<link rel="icon" type="image/png" href="ti.png">
+<link href="contact.css" rel="stylesheet" type="text/css">
+
+<script src="http://maps.googleapis.com/maps/api/js">
+</script>
+
+<script>
+	function initialize(){
+	var map = {
+		center:new google.maps.LatLng(40.785091,-73.968285),
+		zoom:5,
+		mapTypeId:google.maps.MapTypeId.ROADMAP 
+	};
+	var mapp = new google.maps.Map(document.getElementById("gMap"),map);
+	}
+	google.maps.event.addDomListener(window,'load',initialize);
+</script>
+
+<style>
+
+	a:hover img{
+		height:45px;
+		width:45px;
+		opacity:0.7;
+		filter:alpha(opacity=100);
+	}
+
+</style>
+
+</head>
+
+<body>
+<h1><font face="Brush Script MT" size=+5><i>Food Hut</i></font></h1>
+<div class="warp">
+	<div id="head">
+		<div id="mail">
+		<font face="Blackadder ITC" size=+3><u><i>Contact</i></u></font><br>
+		<font face="Calibri" size=+1><i>Quick Contact Form</i></font><br><br>
+		<font face="Calibri" size=-1>You can contact us easily by filling up the quick contact form.Just give your name and email id and send us a message.</font>
+		<br><br>
+		<font face="Calibri" size=-1>Name:</font><br>
+		<input type="text-field">
+		<br>
+		<font face="Calibri" size=-1>E-mail:</font><br>
+		<input type="text-field"><br>
+		<font face="Calibri" size=-1>Message:</font><br>
+		<textarea rows=5 cols=20></textarea><br><br>
+		<input type="submit" value="Send">
+		</div>
+		
+		<div id="maping"><a href="restaurant.html"><img src="home.gif" height=40 width=40 style="float:right;" /></a>
+		<address style="padding-left:30px;"><font size=-1>Address:<br>
+				14 East 60th St<br>
+				New York, NY, 10022<br>
+				212.310.6600<br>
+				Email:<br>
+				mail@foodHut.com</font></address><br><br>
+		<div id="gMap" style="height:240px; width:270px; float:bottom-right; border:5px solid white;"></div>
+		</div>
+	</div>
+	<div id="footer"><br><br><br><hr color=white width=70% size=1 align=right><p><p><p align=right><font size=-1>Copyright &#169 2072 Food Hut | Designed by Chandrika Saha</font></p></p></p>
+	</div>
+
+</div>
+</body>
+
+</html>

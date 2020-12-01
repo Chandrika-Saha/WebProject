@@ -1,0 +1,56 @@
+body{
+	 background-color:#000000;
+	 margin-left:20%;
+	 margin-right:20%;
+	 color:white;
+}
+
+
+#warp{
+	height:600px;
+	width:800px;
+}
+	a:link,a:visited{
+		text-decoration:none;
+		color:white;
+	}
+	a:hover,a:active{
+		color:skyblue;
+		font-size:110%;
+	}
+
+#head{
+	height:450px;
+	width:800px;
+}
+
+ul li{
+	list-style-image: url('list.png');
+	font-family:Arabic;
+	font-size:13px;
+}
+
+#left{
+	height:450px;
+	width:400px;
+	background-color:black;
+	float:left;
+}
+
+#right{
+	height:450px;
+	width:400px;
+	background-color:black;
+	float:right;
+}
+.clr{
+	clear:both;
+}
+
+#foot{
+	height:150px;
+	width:800px;
+}
+
+
+
